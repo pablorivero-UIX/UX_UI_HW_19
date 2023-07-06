@@ -52,10 +52,12 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: antiquewhite;
+    overflow: hidden;
 }
 
 button:hover {
     background-color: rgba(3, 210, 13, 1);
+    transform: scale(1.092);
 }
 
 body, html {
@@ -137,103 +139,3 @@ p {
 #copy {
     font-weight: 10;
 }
-
-
-
-@media only screen and (max-width: 600px) {
-
-    .logo {
-         cursor: pointer;
-         width: 200px;
-         margin-left: 20px;
-    }
-        
-    .nav_links li a:hover {
-        color: rgb(255, 255, 255);
-    }
-        
-    li, a, button {
-        font-family: "roboto", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-    }
-        
-    button {
-        padding: 10px 40px;
-        background-color: rgb(255, 255, 255);
-        border: none;
-        border-radius: 90px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-        color: antiquewhite;
-    }
-        
-    button:hover {
-        background-color: rgb(255, 255, 255);
-    }
-        
-    h1 {
-        color: rgb(16, 110, 0);
-        font-family: "roboto", sans-serif;
-        font-size: 60px;
-        text-align: left;
-        margin-top: 60px;
-        margin-left: 60px;
-        margin-bottom: 80px;
-    }
-    
-    img {
-        width: 150px;
-        margin-left: 120px;
-    }
-        
-    .flexContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 100vh;
-        margin-top: 600px;
-        margin-bottom: 500px;
-    }
-    
-    .inner {
-        width: 400px;
-        margin: 40px;
-        padding: 0px;
-    }
-    
-    #text {
-        background-color: rgba(0, 201, 0, 0.318);
-        margin-top: 30px;
-        padding: 50px;
-        padding-top: 20px;
-    }
-    
-    h3 {
-        font-family: "roboto", sans-serif;
-    }
-    
-    li {
-        font-family: "roboto", sans-serif;
-        color: black;
-    }
-    
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-        
-    .footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 40px;
-        margin-left: 6px;
-        margin-top: 50px;
-        color: black;
-        font-size: 9pt;
-    }
-    }
